@@ -1,0 +1,6 @@
+MOVE SPACES TO WS-CUSTOMER-NAME.
+
+IF WS-CUSTOMER-NAME = SPACES THEN
+    DISPLAY "Customer name is missing."
+    STOP RUN.
+END-IF.
